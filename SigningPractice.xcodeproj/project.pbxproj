@@ -1,0 +1,443 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2B505C50245C1B6700D2C40C /* TesTColorVc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B505C4F245C1B6700D2C40C /* TesTColorVc.swift */; };
+		2B505C54245C437000D2C40C /* SignatureVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2B505C52245C437000D2C40C /* SignatureVC.xib */; };
+		2B505C57245D9EEA00D2C40C /* EpTrySignViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B505C55245D9EE900D2C40C /* EpTrySignViewController.swift */; };
+		2B505C58245D9EEA00D2C40C /* EpTrySignViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2B505C56245D9EEA00D2C40C /* EpTrySignViewController.xib */; };
+		2B505C5A245F18FA00D2C40C /* FileDownloader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B505C59245F18FA00D2C40C /* FileDownloader.swift */; };
+		2BB972A5245888CD00C59F78 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BB972A4245888CD00C59F78 /* AppDelegate.swift */; };
+		2BB972A7245888CD00C59F78 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BB972A6245888CD00C59F78 /* SceneDelegate.swift */; };
+		2BB972A9245888CD00C59F78 /* SignVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BB972A8245888CD00C59F78 /* SignVC.swift */; };
+		2BB972AC245888CD00C59F78 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2BB972AA245888CD00C59F78 /* Main.storyboard */; };
+		2BB972AE245888D300C59F78 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2BB972AD245888D300C59F78 /* Assets.xcassets */; };
+		2BB972B1245888D300C59F78 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2BB972AF245888D300C59F78 /* LaunchScreen.storyboard */; };
+		2BB972BB2458B6F100C59F78 /* sample.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 2BB972BA2458B6F100C59F78 /* sample.pdf */; };
+		2BB972C1245A193900C59F78 /* LoadPDfVc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BB972C0245A193900C59F78 /* LoadPDfVc.swift */; };
+		2BB972C3245B320B00C59F78 /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BB972C2245B320B00C59F78 /* LoginVC.swift */; };
+		BB8F16C0F4674FE0AACDE849 /* Pods_SigningPractice.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C9CD5CB4ECD56E3864F0825B /* Pods_SigningPractice.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2B505C4F245C1B6700D2C40C /* TesTColorVc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TesTColorVc.swift; sourceTree = "<group>"; };
+		2B505C52245C437000D2C40C /* SignatureVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SignatureVC.xib; sourceTree = "<group>"; };
+		2B505C55245D9EE900D2C40C /* EpTrySignViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EpTrySignViewController.swift; sourceTree = "<group>"; };
+		2B505C56245D9EEA00D2C40C /* EpTrySignViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = EpTrySignViewController.xib; sourceTree = "<group>"; };
+		2B505C59245F18FA00D2C40C /* FileDownloader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileDownloader.swift; sourceTree = "<group>"; };
+		2BB972A1245888CD00C59F78 /* SigningPractice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SigningPractice.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2BB972A4245888CD00C59F78 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2BB972A6245888CD00C59F78 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		2BB972A8245888CD00C59F78 /* SignVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignVC.swift; sourceTree = "<group>"; };
+		2BB972AB245888CD00C59F78 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2BB972AD245888D300C59F78 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2BB972B0245888D300C59F78 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2BB972B2245888D300C59F78 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2BB972BA2458B6F100C59F78 /* sample.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = sample.pdf; path = ../../sample.pdf; sourceTree = "<group>"; };
+		2BB972C0245A193900C59F78 /* LoadPDfVc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadPDfVc.swift; sourceTree = "<group>"; };
+		2BB972C2245B320B00C59F78 /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
+		39589CEA8A5FF99DB240FC55 /* Pods-SigningPractice.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SigningPractice.debug.xcconfig"; path = "Target Support Files/Pods-SigningPractice/Pods-SigningPractice.debug.xcconfig"; sourceTree = "<group>"; };
+		C9B3EDE8934C83523A7C1E21 /* Pods-SigningPractice.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SigningPractice.release.xcconfig"; path = "Target Support Files/Pods-SigningPractice/Pods-SigningPractice.release.xcconfig"; sourceTree = "<group>"; };
+		C9CD5CB4ECD56E3864F0825B /* Pods_SigningPractice.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SigningPractice.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2BB9729E245888CD00C59F78 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB8F16C0F4674FE0AACDE849 /* Pods_SigningPractice.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2BB97298245888CD00C59F78 = {
+			isa = PBXGroup;
+			children = (
+				2BB972A3245888CD00C59F78 /* SigningPractice */,
+				2BB972A2245888CD00C59F78 /* Products */,
+				65160843ADC0FE0F3E8545DD /* Pods */,
+				A85BB4AC67709B3A4A19C79B /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		2BB972A2245888CD00C59F78 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2BB972A1245888CD00C59F78 /* SigningPractice.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2BB972A3245888CD00C59F78 /* SigningPractice */ = {
+			isa = PBXGroup;
+			children = (
+				2BB972A4245888CD00C59F78 /* AppDelegate.swift */,
+				2BB972A6245888CD00C59F78 /* SceneDelegate.swift */,
+				2B505C55245D9EE900D2C40C /* EpTrySignViewController.swift */,
+				2B505C56245D9EEA00D2C40C /* EpTrySignViewController.xib */,
+				2BB972A8245888CD00C59F78 /* SignVC.swift */,
+				2B505C52245C437000D2C40C /* SignatureVC.xib */,
+				2BB972C0245A193900C59F78 /* LoadPDfVc.swift */,
+				2BB972C2245B320B00C59F78 /* LoginVC.swift */,
+				2B505C4F245C1B6700D2C40C /* TesTColorVc.swift */,
+				2BB972AA245888CD00C59F78 /* Main.storyboard */,
+				2BB972AD245888D300C59F78 /* Assets.xcassets */,
+				2BB972AF245888D300C59F78 /* LaunchScreen.storyboard */,
+				2BB972B2245888D300C59F78 /* Info.plist */,
+				2BB972BA2458B6F100C59F78 /* sample.pdf */,
+				2B505C59245F18FA00D2C40C /* FileDownloader.swift */,
+			);
+			path = SigningPractice;
+			sourceTree = "<group>";
+		};
+		65160843ADC0FE0F3E8545DD /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				39589CEA8A5FF99DB240FC55 /* Pods-SigningPractice.debug.xcconfig */,
+				C9B3EDE8934C83523A7C1E21 /* Pods-SigningPractice.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		A85BB4AC67709B3A4A19C79B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C9CD5CB4ECD56E3864F0825B /* Pods_SigningPractice.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2BB972A0245888CD00C59F78 /* SigningPractice */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2BB972B5245888D300C59F78 /* Build configuration list for PBXNativeTarget "SigningPractice" */;
+			buildPhases = (
+				EAD1BBF2511C219A50BAEA0E /* [CP] Check Pods Manifest.lock */,
+				2BB9729D245888CD00C59F78 /* Sources */,
+				2BB9729E245888CD00C59F78 /* Frameworks */,
+				2BB9729F245888CD00C59F78 /* Resources */,
+				4BE8D9381652AD63F4D9895E /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SigningPractice;
+			productName = SigningPractice;
+			productReference = 2BB972A1245888CD00C59F78 /* SigningPractice.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2BB97299245888CD00C59F78 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1140;
+				LastUpgradeCheck = 1140;
+				ORGANIZATIONNAME = "Ibukunoluwa Soyebo";
+				TargetAttributes = {
+					2BB972A0245888CD00C59F78 = {
+						CreatedOnToolsVersion = 11.4.1;
+					};
+				};
+			};
+			buildConfigurationList = 2BB9729C245888CD00C59F78 /* Build configuration list for PBXProject "SigningPractice" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2BB97298245888CD00C59F78;
+			productRefGroup = 2BB972A2245888CD00C59F78 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2BB972A0245888CD00C59F78 /* SigningPractice */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2BB9729F245888CD00C59F78 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2BB972BB2458B6F100C59F78 /* sample.pdf in Resources */,
+				2BB972B1245888D300C59F78 /* LaunchScreen.storyboard in Resources */,
+				2B505C58245D9EEA00D2C40C /* EpTrySignViewController.xib in Resources */,
+				2B505C54245C437000D2C40C /* SignatureVC.xib in Resources */,
+				2BB972AE245888D300C59F78 /* Assets.xcassets in Resources */,
+				2BB972AC245888CD00C59F78 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4BE8D9381652AD63F4D9895E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SigningPractice/Pods-SigningPractice-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SigningPractice/Pods-SigningPractice-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SigningPractice/Pods-SigningPractice-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EAD1BBF2511C219A50BAEA0E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SigningPractice-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2BB9729D245888CD00C59F78 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B505C50245C1B6700D2C40C /* TesTColorVc.swift in Sources */,
+				2BB972A9245888CD00C59F78 /* SignVC.swift in Sources */,
+				2BB972C1245A193900C59F78 /* LoadPDfVc.swift in Sources */,
+				2BB972A5245888CD00C59F78 /* AppDelegate.swift in Sources */,
+				2BB972A7245888CD00C59F78 /* SceneDelegate.swift in Sources */,
+				2BB972C3245B320B00C59F78 /* LoginVC.swift in Sources */,
+				2B505C5A245F18FA00D2C40C /* FileDownloader.swift in Sources */,
+				2B505C57245D9EEA00D2C40C /* EpTrySignViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		2BB972AA245888CD00C59F78 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2BB972AB245888CD00C59F78 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2BB972AF245888D300C59F78 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2BB972B0245888D300C59F78 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2BB972B3245888D300C59F78 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2BB972B4245888D300C59F78 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2BB972B6245888D300C59F78 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 39589CEA8A5FF99DB240FC55 /* Pods-SigningPractice.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SigningPractice/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.soyeboibukun.SigningPractice;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2BB972B7245888D300C59F78 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C9B3EDE8934C83523A7C1E21 /* Pods-SigningPractice.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SigningPractice/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.soyeboibukun.SigningPractice;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2BB9729C245888CD00C59F78 /* Build configuration list for PBXProject "SigningPractice" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2BB972B3245888D300C59F78 /* Debug */,
+				2BB972B4245888D300C59F78 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2BB972B5245888D300C59F78 /* Build configuration list for PBXNativeTarget "SigningPractice" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2BB972B6245888D300C59F78 /* Debug */,
+				2BB972B7245888D300C59F78 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2BB97299245888CD00C59F78 /* Project object */;
+}

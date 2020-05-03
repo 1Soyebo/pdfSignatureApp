@@ -1,0 +1,1662 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0126B11AAF31F96644C6F82064721027 /* M13Checkbox.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C944D93FBCF57EF4E324D51C5C81D8E /* M13Checkbox.swift */; };
+		07E25CD770A813F621CA8C3400A7D7ED /* EPSignatureViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 954455AACD3F76785036D5DB6C2F3314 /* EPSignatureViewController.xib */; };
+		0B08DFF991597B12F4B73F5E699BC130 /* Window.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EA92B230BB38C93C39EB34367E2F469 /* Window.swift */; };
+		0D0FC5FCA5DC6851AA0674A0F436F75C /* HUD.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E76B1A4632F508C605BEEB76433F90B /* HUD.swift */; };
+		128FA21D7EFAB80FC1F2B851D4D6450A /* M13CheckboxDotController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E4FDDCA47ACA7DCDAE8E1DE7B851253 /* M13CheckboxDotController.swift */; };
+		12EDD45814D8150755D0B6B9024CEFCD /* M13CheckboxAnimationGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB669C6F0D25D771DB26B4EF5EF38442 /* M13CheckboxAnimationGenerator.swift */; };
+		14035A7A6B8A825357C702BBE6C8848C /* WindowRootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F044DD56610E667C4971982B130D5DD /* WindowRootViewController.swift */; };
+		148F4A8D0E9317AF7E814A558AC16AA7 /* PKHUDWideBaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FAD80CBC1A9D82908F7817735877736 /* PKHUDWideBaseView.swift */; };
+		163A5D0CB2C56002E3577FDB0F1C7CC9 /* EPSignature-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CA8C30CC0AB01FDD3FD0AEB992C365E2 /* EPSignature-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		16860195B5F7EA0E583C7B52FEE745FE /* M13CheckboxFillController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06CA4D1234C526AD63E881DC518F6EAD /* M13CheckboxFillController.swift */; };
+		180A266E2AF087B3E947058335E89CE0 /* PKHUD.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D6E832468E20184FE32D78EA328CF9E /* PKHUD.swift */; };
+		1B249CE416D978D8E1AF0899886734EB /* EPSignatureViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA0CB4D235A9ABC43057347651432A4F /* EPSignatureViewController.swift */; };
+		1BB92ED1C2A38E73E82956BE00F0C4B7 /* M13CheckboxBounceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E606D7B48785D038FC9031562D69D0EA /* M13CheckboxBounceController.swift */; };
+		1E3C34E93BBDB5CA9B85A737FD634813 /* EPSignatureView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4354A19A0E262156098F2C8BD92AC7B3 /* EPSignatureView.swift */; };
+		1F824E58DBB325F219AFB0C9451BE1C8 /* PKHUDAssets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47B6D13AE4106A77012DC9B6BB7CE47B /* PKHUDAssets.swift */; };
+		224E7A8EC9F1222531E3A0C3977FCDAB /* ColorPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF5C09E419DDCB5D31DCE92E977B5ABB /* ColorPickerView.swift */; };
+		2265A020B0727EB38FA75523D170B51A /* M13CheckboxExpandController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 918CBD1C1F689D080B3C3FF335B4491E /* M13CheckboxExpandController.swift */; };
+		23A263255B6EFDD46330E29E1F40B7E1 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B1B15E16A0F33A0958F88DE922DCE5FD /* CoreGraphics.framework */; };
+		264D38C04FB2A8AAC6DD94AEEDE6D33E /* ColorPickerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFA546D3D51CBE357D26A1BF15E32DF6 /* ColorPickerCell.swift */; };
+		31F445BC870DC65B5DB15B8F51AE9E77 /* PKHUDRotatingImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E297F02E70031477117670794B620EF1 /* PKHUDRotatingImageView.swift */; };
+		39A93C2CC130C7BBC883E0735F630671 /* PKHUDSuccessView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7198BF06E27FB8BDB367345E337A9D92 /* PKHUDSuccessView.swift */; };
+		3DA07DFC44F8781C43CEF13FA981122F /* M13Checkbox-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F53B84CD1688CD630442CE5F3C6B7035 /* M13Checkbox-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4147AAEFC99B3FF5EE4792FEC4A009F5 /* IGColorPicker-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E947A315751546ABE7A0C79D5769BFA /* IGColorPicker-dummy.m */; };
+		446493C8F226FA8CC9D4D706486FA605 /* PKHUD.h in Headers */ = {isa = PBXBuildFile; fileRef = 401929580B58D8C21A6DD3D29F0DFE6F /* PKHUD.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		48B67166589641F388DBD7A152CBCA92 /* SwiftSignatureView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F6171F850F42E3C4D225DB6990912880 /* SwiftSignatureView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4A107B86C255F6A49C6616D546B40585 /* M13Checkbox+IB.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82F3C194C2102C07E15829A081DDDBB8 /* M13Checkbox+IB.swift */; };
+		4D03B6DD177594760AC1EE2CFF0833CE /* Pods-SigningPractice-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 71694A0860426E0B591749B6D11AE19D /* Pods-SigningPractice-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		54E7808DA4C495BFCA04EC8FA99EF06C /* PKHUDProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8243845555C5AFD603D15CCD3181700B /* PKHUDProgressView.swift */; };
+		551ED8009D7A001E38FD3C99D25F5CBD /* UIColor+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9DC3BCB53F647FDB4A775D019A0C0ED /* UIColor+Extension.swift */; };
+		606FB101465BA0EC4F2ED1EDE8E152DD /* PKHUDAnimating.swift in Sources */ = {isa = PBXBuildFile; fileRef = 159A18DD55BBA6293AB72BE34D53CADD /* PKHUDAnimating.swift */; };
+		668EAECD33445BDF94D40582FAC8310E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7DBFAF4C313D8729E56CBDF62618A7CC /* UIKit.framework */; };
+		675EC1A032DFDD820264B3AE47B297C2 /* PKHUDAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7526070432EB4398C45B66318833E455 /* PKHUDAnimation.swift */; };
+		6A7A384A3F24F41E61C5EC59DC89FB2B /* M13CheckboxPathGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E61D6CF94EF4B21D90B0C0DAC76BB15 /* M13CheckboxPathGenerator.swift */; };
+		6E3B6CDC0E81F85823E58AB72A58C6EC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B556076667A848081B6C4191C7384F7C /* Foundation.framework */; };
+		771FF27CF9018A865BE6AA1C8FDD0646 /* PKHUDResources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = BFCB2D5C605270A32522299AED3B5AE6 /* PKHUDResources.bundle */; };
+		7D7320E54ED74F035C71178A4508FAA5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B556076667A848081B6C4191C7384F7C /* Foundation.framework */; };
+		7F5190775C2ED8906A109184913D9066 /* M13Checkbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B05C6C07A481A55753BDE38203445188 /* M13Checkbox.framework */; };
+		7F5C1F4F2BE2212FCEE08299124361F4 /* M13Checkbox-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BEDF1087435B8A6284ECD7D84FF7F98C /* M13Checkbox-dummy.m */; };
+		845FFB8F470D34D9D2B1EBF240E153A2 /* ColorPickerViewDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDB9F5B5813B75391FB1C7D076A0C23B /* ColorPickerViewDelegate.swift */; };
+		88FA28B34E671180474152FCC00CDE3C /* M13CheckboxSpiralController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55C562953246D0DEF41E698D616A93E6 /* M13CheckboxSpiralController.swift */; };
+		9432D6D1CE40B94ACC42309A46DA4C4B /* PKHUD-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9A3530023090A6FA6BAF9C0F1AFED50A /* PKHUD-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		969FC07FBC4C2B0668790A983DD603A7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B556076667A848081B6C4191C7384F7C /* Foundation.framework */; };
+		96BB74F01FBAF80ECC54F6EF1CCED5AA /* SwiftSignatureView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 49148A6A7F34F99D48E005A35193A6FF /* SwiftSignatureView-dummy.m */; };
+		9C4229D5D1B5FC7606ECC49F776E64CD /* PKHUDSquareBaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2E9EDA1EAE7618415480F6BB62718AB /* PKHUDSquareBaseView.swift */; };
+		9EE1FDEFDD39B68FC45914834243E3F6 /* IGColorPicker-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A4C3DA11AEE635596BFE6AD6CD94C941 /* IGColorPicker-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9F6A924646BC2E5C790B822DFA3D6DF3 /* M13CheckboxFlatController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9E8F29B67C304464A4F5C13391B42B5 /* M13CheckboxFlatController.swift */; };
+		A2E15A3C59A1B26BC369820D7914C739 /* M13CheckboxAddRemovePathGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1B92A27829797A776CE3A1861BFB763 /* M13CheckboxAddRemovePathGenerator.swift */; };
+		A4E3AA395F2CC53A35AFC0FA78ABE33F /* M13CheckboxGestureRecognizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = A53C8C1272B92BA63C99F74D0112E26E /* M13CheckboxGestureRecognizer.swift */; };
+		A4E769718DB971482F8391CA96C8E0BD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B556076667A848081B6C4191C7384F7C /* Foundation.framework */; };
+		A7F238E4EA685E9A685F4A6AE1568549 /* DefaultValues.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C8983AEE5B01E367675E4860AEAD127 /* DefaultValues.swift */; };
+		A8EA6E398B7FC737D0D92A533D7677E5 /* PKHUD-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 50FA911965F5BA4D07EFA9F1770F4975 /* PKHUD-dummy.m */; };
+		B318B688B65B56BC840B03962D2DE393 /* ColorPickerViewDelegateFlowLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = C59C6B38D7335B9F512A200E9CBC3611 /* ColorPickerViewDelegateFlowLayout.swift */; };
+		BC8F9F3A3C4B4E685AD494B3A3DC4BD7 /* M13CheckboxFadeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A83282E1A402301B975C1ACC39DA08B /* M13CheckboxFadeController.swift */; };
+		D3071B6EC4C2D2C0AE2493C6ABFA00D8 /* EPSignature-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 65C547DBD865BFC7685EB7CA04183182 /* EPSignature-dummy.m */; };
+		D7B3528A3103B65FA92AAA30AEF7B8D1 /* M13CheckboxRadioPathGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD455E9F6D4D22078045D256777BE82E /* M13CheckboxRadioPathGenerator.swift */; };
+		DB20EB5F12F78130500E8683C2214E11 /* FrameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D86C682577C0383F974C018AD114E2D1 /* FrameView.swift */; };
+		E2A38E421D16111E6DE45070BA0F0A7E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F72011124DD447E19AC9DB17C22B2C6C /* Images.xcassets */; };
+		E5B1D766956D38038491649A5AFA693E /* EPExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 435BDE928CC6A04A682D5239ED308085 /* EPExtensions.swift */; };
+		E6FFE305826BE9881BB19196880D5A74 /* M13CheckboxController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4FCCF9F3B32459E3A7E174D036543C1 /* M13CheckboxController.swift */; };
+		E84C1832305BF7AA61C2E6F99C7369C0 /* PKHUDSystemActivityIndicatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC420E68EFF86800325382012D1BFA5B /* PKHUDSystemActivityIndicatorView.swift */; };
+		EBDE426BC242F1E2A7810296582D8B30 /* Pods-SigningPractice-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 68D7ABC7314E762AA5535FC5003441AD /* Pods-SigningPractice-dummy.m */; };
+		EE5DDEFF888762F44404E30889EFCF70 /* M13CheckboxCheckPathGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86639039CD720CBDDA1B0D0C57D59DCE /* M13CheckboxCheckPathGenerator.swift */; };
+		EF50980DA05BC44D9725C5702FDDD669 /* PKHUDErrorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDE8A0C56290990A7E0A6B4D68BA21C8 /* PKHUDErrorView.swift */; };
+		F00EA7040B010ACDE2EA7011D7529A11 /* M13CheckboxDisclosurePathGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = A599A414BD7952CBBF98327772DB8A22 /* M13CheckboxDisclosurePathGenerator.swift */; };
+		F2CC01B79708C6CC4DEA8FD3B308C4F7 /* PKHUDTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AFE41D647F531F339A9823FAB6CF767 /* PKHUDTextView.swift */; };
+		F481AB71C654A793C88D1799230865D0 /* SwiftSignatureView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBFB01875F6A362C153F95C65BBCE3C5 /* SwiftSignatureView.swift */; };
+		F786D1942BEC12F8EE5AC6B9DA1A5520 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B556076667A848081B6C4191C7384F7C /* Foundation.framework */; };
+		F78870AB77C739F4971E831CD98D3696 /* M13CheckboxStrokeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E8BF6242B5FDFF66A9B30BBE63DA8AD /* M13CheckboxStrokeController.swift */; };
+		F8B8496663DA7512C8DCDA1DCA05C60E /* DefaultValues.swift in Sources */ = {isa = PBXBuildFile; fileRef = 718FFE7B270EFB7E8B4CC3FEB7F57E6A /* DefaultValues.swift */; };
+		FF1FD46FD86DFED9C9A6CAE0CAA86EAE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B556076667A848081B6C4191C7384F7C /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		20E0CE6477DF4EA14ABB49DE11496DDA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3CAF5EBFE5D1550CFF58AEC93594990A;
+			remoteInfo = EPSignature;
+		};
+		3D7654D6035EC1C05BD6DCD3024E0045 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 364873017BA37260EF589D44B6B73D21;
+			remoteInfo = PKHUD;
+		};
+		4F0B20E60F42A10E9CF15A2A3D4436E2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7111E54EAE43E89F451A75076C3525ED;
+			remoteInfo = M13Checkbox;
+		};
+		B23EBCA3BC0C8F8125906539D051FFA7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6D8D2751C5F0C2E845398BA4D7969D44;
+			remoteInfo = IGColorPicker;
+		};
+		C7E4FF5E720A8106ADD14262653F5F38 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A7F7332F1050B42A501616421AC869EB;
+			remoteInfo = "PKHUD-PKHUDResources";
+		};
+		DDB3003722DA5442EBEA6C3909A0449E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7111E54EAE43E89F451A75076C3525ED;
+			remoteInfo = M13Checkbox;
+		};
+		FC4D7B55E7381546F562233972269587 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 77FF5E066D2B1955FFA0177ECFA4DF75;
+			remoteInfo = SwiftSignatureView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		04FCCAA1661C31534417A28445CF45C8 /* IGColorPicker-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "IGColorPicker-prefix.pch"; sourceTree = "<group>"; };
+		05A2656F46E8CA87E77A035911B33D10 /* PKHUD.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = PKHUD.framework; path = PKHUD.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		06CA4D1234C526AD63E881DC518F6EAD /* M13CheckboxFillController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = M13CheckboxFillController.swift; path = Sources/Managers/M13CheckboxFillController.swift; sourceTree = "<group>"; };
+		0D6E832468E20184FE32D78EA328CF9E /* PKHUD.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PKHUD.swift; path = PKHUD/PKHUD.swift; sourceTree = "<group>"; };
+		159A18DD55BBA6293AB72BE34D53CADD /* PKHUDAnimating.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PKHUDAnimating.swift; path = PKHUD/PKHUDAnimating.swift; sourceTree = "<group>"; };
+		1A83282E1A402301B975C1ACC39DA08B /* M13CheckboxFadeController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = M13CheckboxFadeController.swift; path = Sources/Managers/M13CheckboxFadeController.swift; sourceTree = "<group>"; };
+		1C36600B595A583CD472C278E04659D4 /* Pods-SigningPractice.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SigningPractice.modulemap"; sourceTree = "<group>"; };
+		1DCCE24B7AC94316262E7281F935FD6B /* SwiftSignatureView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SwiftSignatureView.framework; path = SwiftSignatureView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2044570AE5B7A2BCDE4DC22E24FF7C8A /* IGColorPicker.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = IGColorPicker.debug.xcconfig; sourceTree = "<group>"; };
+		238257BA5F8C601B25CF235B8FF941A3 /* Pods-SigningPractice.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SigningPractice.debug.xcconfig"; sourceTree = "<group>"; };
+		253172D5A80A611AE37F4E5486217AA4 /* SwiftSignatureView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftSignatureView.debug.xcconfig; sourceTree = "<group>"; };
+		289164DF0DC833425714E8C535591749 /* IGColorPicker.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = IGColorPicker.release.xcconfig; sourceTree = "<group>"; };
+		2AFE41D647F531F339A9823FAB6CF767 /* PKHUDTextView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PKHUDTextView.swift; path = PKHUD/PKHUDTextView.swift; sourceTree = "<group>"; };
+		2C64268D91FDB960ABA3CC5BA6CA1C3F /* M13Checkbox.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = M13Checkbox.modulemap; sourceTree = "<group>"; };
+		302C3A90C062002343BA997A15CB0594 /* Pods_SigningPractice.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SigningPractice.framework; path = "Pods-SigningPractice.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		31B639FDC1B7426A43B5D5A751A40ED4 /* EPSignature-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "EPSignature-Info.plist"; sourceTree = "<group>"; };
+		369464E2D560E1D8403DC62F7F9F96F1 /* IGColorPicker.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = IGColorPicker.framework; path = IGColorPicker.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3DFAC6F70B9CECADF5873F487AF082BA /* EPSignature.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = EPSignature.framework; path = EPSignature.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3E8BF6242B5FDFF66A9B30BBE63DA8AD /* M13CheckboxStrokeController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = M13CheckboxStrokeController.swift; path = Sources/Managers/M13CheckboxStrokeController.swift; sourceTree = "<group>"; };
+		401929580B58D8C21A6DD3D29F0DFE6F /* PKHUD.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PKHUD.h; path = PKHUD/PKHUD.h; sourceTree = "<group>"; };
+		4354A19A0E262156098F2C8BD92AC7B3 /* EPSignatureView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = EPSignatureView.swift; path = Pod/Classes/EPSignatureView.swift; sourceTree = "<group>"; };
+		435BDE928CC6A04A682D5239ED308085 /* EPExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = EPExtensions.swift; path = Pod/Classes/EPExtensions.swift; sourceTree = "<group>"; };
+		47B6D13AE4106A77012DC9B6BB7CE47B /* PKHUDAssets.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PKHUDAssets.swift; path = PKHUD/PKHUDAssets.swift; sourceTree = "<group>"; };
+		49148A6A7F34F99D48E005A35193A6FF /* SwiftSignatureView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SwiftSignatureView-dummy.m"; sourceTree = "<group>"; };
+		4A9B7F8E4421EFF94022735DAEA6FBED /* Pods-SigningPractice-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SigningPractice-Info.plist"; sourceTree = "<group>"; };
+		4E39B856CECBE7D70A97CD6B94E1ADF1 /* SwiftSignatureView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SwiftSignatureView.modulemap; sourceTree = "<group>"; };
+		4E76B1A4632F508C605BEEB76433F90B /* HUD.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HUD.swift; path = PKHUD/HUD.swift; sourceTree = "<group>"; };
+		50FA911965F5BA4D07EFA9F1770F4975 /* PKHUD-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "PKHUD-dummy.m"; sourceTree = "<group>"; };
+		525F29C0EA3CEA7AD372B82C42BB9C63 /* M13Checkbox.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = M13Checkbox.debug.xcconfig; sourceTree = "<group>"; };
+		55B0D27EFF0C47A3F45D2970D2966862 /* M13Checkbox.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = M13Checkbox.release.xcconfig; sourceTree = "<group>"; };
+		55C562953246D0DEF41E698D616A93E6 /* M13CheckboxSpiralController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = M13CheckboxSpiralController.swift; path = Sources/Managers/M13CheckboxSpiralController.swift; sourceTree = "<group>"; };
+		56ABD65DE146F9227286109A80D201D3 /* ResourceBundle-PKHUDResources-PKHUD-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-PKHUDResources-PKHUD-Info.plist"; sourceTree = "<group>"; };
+		59E87903BB27B5E7EAA2665E796E36C7 /* EPSignature.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = EPSignature.debug.xcconfig; sourceTree = "<group>"; };
+		5C53087A16C04913FBDE782CC6A87EBE /* EPSignature.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = EPSignature.release.xcconfig; sourceTree = "<group>"; };
+		5CE79C5BF20743404E59BEFD080A364D /* M13Checkbox.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = M13Checkbox.framework; path = M13Checkbox.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5EA92B230BB38C93C39EB34367E2F469 /* Window.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Window.swift; path = PKHUD/Window.swift; sourceTree = "<group>"; };
+		63C0CFB1FB493F30DEC8A173A5445590 /* EPSignature.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = EPSignature.modulemap; sourceTree = "<group>"; };
+		65C547DBD865BFC7685EB7CA04183182 /* EPSignature-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "EPSignature-dummy.m"; sourceTree = "<group>"; };
+		68D7ABC7314E762AA5535FC5003441AD /* Pods-SigningPractice-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SigningPractice-dummy.m"; sourceTree = "<group>"; };
+		6F044DD56610E667C4971982B130D5DD /* WindowRootViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = WindowRootViewController.swift; path = PKHUD/WindowRootViewController.swift; sourceTree = "<group>"; };
+		6FAD80CBC1A9D82908F7817735877736 /* PKHUDWideBaseView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PKHUDWideBaseView.swift; path = PKHUD/PKHUDWideBaseView.swift; sourceTree = "<group>"; };
+		70655DFD80C1E0024DD881EE2016DFB3 /* Pods-SigningPractice.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SigningPractice.release.xcconfig"; sourceTree = "<group>"; };
+		71694A0860426E0B591749B6D11AE19D /* Pods-SigningPractice-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SigningPractice-umbrella.h"; sourceTree = "<group>"; };
+		718FFE7B270EFB7E8B4CC3FEB7F57E6A /* DefaultValues.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DefaultValues.swift; path = Sources/DefaultValues.swift; sourceTree = "<group>"; };
+		7198BF06E27FB8BDB367345E337A9D92 /* PKHUDSuccessView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PKHUDSuccessView.swift; path = PKHUD/PKHUDSuccessView.swift; sourceTree = "<group>"; };
+		7526070432EB4398C45B66318833E455 /* PKHUDAnimation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PKHUDAnimation.swift; path = PKHUD/PKHUDAnimation.swift; sourceTree = "<group>"; };
+		75FF5CA3ABB87BB717061B04E7CC6D8E /* Pods-SigningPractice-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SigningPractice-acknowledgements.plist"; sourceTree = "<group>"; };
+		7C944D93FBCF57EF4E324D51C5C81D8E /* M13Checkbox.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = M13Checkbox.swift; path = Sources/M13Checkbox.swift; sourceTree = "<group>"; };
+		7DBFAF4C313D8729E56CBDF62618A7CC /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		800C557886397A7CCCC26805F5346BC0 /* IGColorPicker.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = IGColorPicker.modulemap; sourceTree = "<group>"; };
+		8243845555C5AFD603D15CCD3181700B /* PKHUDProgressView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PKHUDProgressView.swift; path = PKHUD/PKHUDProgressView.swift; sourceTree = "<group>"; };
+		82F3C194C2102C07E15829A081DDDBB8 /* M13Checkbox+IB.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "M13Checkbox+IB.swift"; path = "Sources/M13Checkbox+IB.swift"; sourceTree = "<group>"; };
+		86639039CD720CBDDA1B0D0C57D59DCE /* M13CheckboxCheckPathGenerator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = M13CheckboxCheckPathGenerator.swift; path = Sources/Paths/M13CheckboxCheckPathGenerator.swift; sourceTree = "<group>"; };
+		8C14A7199C41282D310A05EB0EF70E9C /* PKHUD-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "PKHUD-Info.plist"; sourceTree = "<group>"; };
+		8E4FDDCA47ACA7DCDAE8E1DE7B851253 /* M13CheckboxDotController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = M13CheckboxDotController.swift; path = Sources/Managers/M13CheckboxDotController.swift; sourceTree = "<group>"; };
+		8E947A315751546ABE7A0C79D5769BFA /* IGColorPicker-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "IGColorPicker-dummy.m"; sourceTree = "<group>"; };
+		918CBD1C1F689D080B3C3FF335B4491E /* M13CheckboxExpandController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = M13CheckboxExpandController.swift; path = Sources/Managers/M13CheckboxExpandController.swift; sourceTree = "<group>"; };
+		93B4593A7862D2103489945A2288A84F /* PKHUD.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PKHUD.release.xcconfig; sourceTree = "<group>"; };
+		954455AACD3F76785036D5DB6C2F3314 /* EPSignatureViewController.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = EPSignatureViewController.xib; path = Pod/Classes/EPSignatureViewController.xib; sourceTree = "<group>"; };
+		98191186BF1A36331685671AB6B85442 /* Pods-SigningPractice-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SigningPractice-frameworks.sh"; sourceTree = "<group>"; };
+		9A3530023090A6FA6BAF9C0F1AFED50A /* PKHUD-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PKHUD-umbrella.h"; sourceTree = "<group>"; };
+		9C8983AEE5B01E367675E4860AEAD127 /* DefaultValues.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DefaultValues.swift; path = IGColorPicker/Classes/DefaultValues.swift; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9E61D6CF94EF4B21D90B0C0DAC76BB15 /* M13CheckboxPathGenerator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = M13CheckboxPathGenerator.swift; path = Sources/Paths/M13CheckboxPathGenerator.swift; sourceTree = "<group>"; };
+		9E89C7983423E712770AA46BCE4EFA41 /* M13Checkbox-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "M13Checkbox-Info.plist"; sourceTree = "<group>"; };
+		A4C3DA11AEE635596BFE6AD6CD94C941 /* IGColorPicker-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "IGColorPicker-umbrella.h"; sourceTree = "<group>"; };
+		A53C8C1272B92BA63C99F74D0112E26E /* M13CheckboxGestureRecognizer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = M13CheckboxGestureRecognizer.swift; path = Sources/M13CheckboxGestureRecognizer.swift; sourceTree = "<group>"; };
+		A599A414BD7952CBBF98327772DB8A22 /* M13CheckboxDisclosurePathGenerator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = M13CheckboxDisclosurePathGenerator.swift; path = Sources/Paths/M13CheckboxDisclosurePathGenerator.swift; sourceTree = "<group>"; };
+		A9DC3BCB53F647FDB4A775D019A0C0ED /* UIColor+Extension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIColor+Extension.swift"; path = "IGColorPicker/Classes/Extension/UIColor+Extension.swift"; sourceTree = "<group>"; };
+		AD298D8F49C1511C15DEFEB3F1E5DFB5 /* PKHUD.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = PKHUD.modulemap; sourceTree = "<group>"; };
+		B017CE5A19DC77580E671027E000FE21 /* Pods-SigningPractice-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SigningPractice-acknowledgements.markdown"; sourceTree = "<group>"; };
+		B05C6C07A481A55753BDE38203445188 /* M13Checkbox.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = M13Checkbox.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B1B15E16A0F33A0958F88DE922DCE5FD /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
+		B556076667A848081B6C4191C7384F7C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		B8F40FC28E164D6E6B06CD0E2AD4A598 /* IGColorPicker-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "IGColorPicker-Info.plist"; sourceTree = "<group>"; };
+		BDE8A0C56290990A7E0A6B4D68BA21C8 /* PKHUDErrorView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PKHUDErrorView.swift; path = PKHUD/PKHUDErrorView.swift; sourceTree = "<group>"; };
+		BEDF1087435B8A6284ECD7D84FF7F98C /* M13Checkbox-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "M13Checkbox-dummy.m"; sourceTree = "<group>"; };
+		BFCB2D5C605270A32522299AED3B5AE6 /* PKHUDResources.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = PKHUDResources.bundle; path = "PKHUD-PKHUDResources.bundle"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C1B92A27829797A776CE3A1861BFB763 /* M13CheckboxAddRemovePathGenerator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = M13CheckboxAddRemovePathGenerator.swift; path = Sources/Paths/M13CheckboxAddRemovePathGenerator.swift; sourceTree = "<group>"; };
+		C59C6B38D7335B9F512A200E9CBC3611 /* ColorPickerViewDelegateFlowLayout.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ColorPickerViewDelegateFlowLayout.swift; path = IGColorPicker/Classes/Protocol/ColorPickerViewDelegateFlowLayout.swift; sourceTree = "<group>"; };
+		CA8C30CC0AB01FDD3FD0AEB992C365E2 /* EPSignature-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "EPSignature-umbrella.h"; sourceTree = "<group>"; };
+		CE831DCED5FF77C3E9637821C274B5C4 /* M13Checkbox-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "M13Checkbox-prefix.pch"; sourceTree = "<group>"; };
+		D2E9EDA1EAE7618415480F6BB62718AB /* PKHUDSquareBaseView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PKHUDSquareBaseView.swift; path = PKHUD/PKHUDSquareBaseView.swift; sourceTree = "<group>"; };
+		D3265228F7AF7E6DB8BB79A9F8E3C0CC /* SwiftSignatureView-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SwiftSignatureView-Info.plist"; sourceTree = "<group>"; };
+		D86C682577C0383F974C018AD114E2D1 /* FrameView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FrameView.swift; path = PKHUD/FrameView.swift; sourceTree = "<group>"; };
+		D9E8F29B67C304464A4F5C13391B42B5 /* M13CheckboxFlatController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = M13CheckboxFlatController.swift; path = Sources/Managers/M13CheckboxFlatController.swift; sourceTree = "<group>"; };
+		DA0CB4D235A9ABC43057347651432A4F /* EPSignatureViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = EPSignatureViewController.swift; path = Pod/Classes/EPSignatureViewController.swift; sourceTree = "<group>"; };
+		DCFA75342F66DA2DF42B021FB120C120 /* SwiftSignatureView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftSignatureView-prefix.pch"; sourceTree = "<group>"; };
+		DD455E9F6D4D22078045D256777BE82E /* M13CheckboxRadioPathGenerator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = M13CheckboxRadioPathGenerator.swift; path = Sources/Paths/M13CheckboxRadioPathGenerator.swift; sourceTree = "<group>"; };
+		DFA546D3D51CBE357D26A1BF15E32DF6 /* ColorPickerCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ColorPickerCell.swift; path = IGColorPicker/Classes/View/ColorPickerCell.swift; sourceTree = "<group>"; };
+		E297F02E70031477117670794B620EF1 /* PKHUDRotatingImageView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PKHUDRotatingImageView.swift; path = PKHUD/PKHUDRotatingImageView.swift; sourceTree = "<group>"; };
+		E606D7B48785D038FC9031562D69D0EA /* M13CheckboxBounceController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = M13CheckboxBounceController.swift; path = Sources/Managers/M13CheckboxBounceController.swift; sourceTree = "<group>"; };
+		E7490ECC1B8119E25A9B7CE804A9E382 /* PKHUD-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PKHUD-prefix.pch"; sourceTree = "<group>"; };
+		EB669C6F0D25D771DB26B4EF5EF38442 /* M13CheckboxAnimationGenerator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = M13CheckboxAnimationGenerator.swift; path = Sources/M13CheckboxAnimationGenerator.swift; sourceTree = "<group>"; };
+		EBFB01875F6A362C153F95C65BBCE3C5 /* SwiftSignatureView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftSignatureView.swift; path = Pod/Classes/SwiftSignatureView.swift; sourceTree = "<group>"; };
+		ED88FEE5BD1D828C4645FD16D96219F6 /* SwiftSignatureView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftSignatureView.release.xcconfig; sourceTree = "<group>"; };
+		EF5C09E419DDCB5D31DCE92E977B5ABB /* ColorPickerView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ColorPickerView.swift; path = IGColorPicker/Classes/View/ColorPickerView.swift; sourceTree = "<group>"; };
+		F4FCCF9F3B32459E3A7E174D036543C1 /* M13CheckboxController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = M13CheckboxController.swift; path = Sources/M13CheckboxController.swift; sourceTree = "<group>"; };
+		F53B84CD1688CD630442CE5F3C6B7035 /* M13Checkbox-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "M13Checkbox-umbrella.h"; sourceTree = "<group>"; };
+		F6171F850F42E3C4D225DB6990912880 /* SwiftSignatureView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftSignatureView-umbrella.h"; sourceTree = "<group>"; };
+		F72011124DD447E19AC9DB17C22B2C6C /* Images.xcassets */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = PKHUD/Images.xcassets; sourceTree = "<group>"; };
+		F8E6D115D1059668B31561D3D76CAE81 /* PKHUD.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PKHUD.debug.xcconfig; sourceTree = "<group>"; };
+		FC420E68EFF86800325382012D1BFA5B /* PKHUDSystemActivityIndicatorView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PKHUDSystemActivityIndicatorView.swift; path = PKHUD/PKHUDSystemActivityIndicatorView.swift; sourceTree = "<group>"; };
+		FDB9F5B5813B75391FB1C7D076A0C23B /* ColorPickerViewDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ColorPickerViewDelegate.swift; path = IGColorPicker/Classes/Protocol/ColorPickerViewDelegate.swift; sourceTree = "<group>"; };
+		FEE1CE6324E0DF95A1AA6A862ACF161E /* EPSignature-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "EPSignature-prefix.pch"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		31635D3CB11BDE66A72E6B17F207258E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF1FD46FD86DFED9C9A6CAE0CAA86EAE /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5965CA0EC8E5353EE2EEBE4B07D4C053 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5D1D49812C2F7D8070972FE1826530FB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				23A263255B6EFDD46330E29E1F40B7E1 /* CoreGraphics.framework in Frameworks */,
+				6E3B6CDC0E81F85823E58AB72A58C6EC /* Foundation.framework in Frameworks */,
+				668EAECD33445BDF94D40582FAC8310E /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		766F7A424E267388A5C0898A61031720 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F786D1942BEC12F8EE5AC6B9DA1A5520 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9C6AE3FD64538CE37A9AAA182964E9A6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4E769718DB971482F8391CA96C8E0BD /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BAA9220488FA851E994F20F17F99DB4A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7D7320E54ED74F035C71178A4508FAA5 /* Foundation.framework in Frameworks */,
+				7F5190775C2ED8906A109184913D9066 /* M13Checkbox.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F68ADAAA9ED6942C7EC45998993DCE7E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				969FC07FBC4C2B0668790A983DD603A7 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0137A8E140EF1D8B6BBFB58943516EB0 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				F2285A6FCA5BB7F10885C7BAA45A3E1B /* Pods-SigningPractice */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		0A9D478B87F51F309D97592319FC7BA4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2A4EE6E253BDE9E104E3D952E54F0F82 /* EPSignature */,
+				D8D43081ADF24186F008338843A48F1E /* IGColorPicker */,
+				1E9F9A8F0F157601B4D74BBA41F3D209 /* M13Checkbox */,
+				997419DA620C600F1D792C305E4FFA7C /* PKHUD */,
+				9F41DB65381497A32E9268FA22E1F924 /* SwiftSignatureView */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		0BB682A9E3AEC53A1F57317EAE3D32E9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B05C6C07A481A55753BDE38203445188 /* M13Checkbox.framework */,
+				204EEF6440DAA5E8D4CE9B1EE88765FD /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		128F5FEEF238A6447A4A12BB14DAD840 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				4E39B856CECBE7D70A97CD6B94E1ADF1 /* SwiftSignatureView.modulemap */,
+				49148A6A7F34F99D48E005A35193A6FF /* SwiftSignatureView-dummy.m */,
+				D3265228F7AF7E6DB8BB79A9F8E3C0CC /* SwiftSignatureView-Info.plist */,
+				DCFA75342F66DA2DF42B021FB120C120 /* SwiftSignatureView-prefix.pch */,
+				F6171F850F42E3C4D225DB6990912880 /* SwiftSignatureView-umbrella.h */,
+				253172D5A80A611AE37F4E5486217AA4 /* SwiftSignatureView.debug.xcconfig */,
+				ED88FEE5BD1D828C4645FD16D96219F6 /* SwiftSignatureView.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SwiftSignatureView";
+			sourceTree = "<group>";
+		};
+		1E9F9A8F0F157601B4D74BBA41F3D209 /* M13Checkbox */ = {
+			isa = PBXGroup;
+			children = (
+				718FFE7B270EFB7E8B4CC3FEB7F57E6A /* DefaultValues.swift */,
+				7C944D93FBCF57EF4E324D51C5C81D8E /* M13Checkbox.swift */,
+				82F3C194C2102C07E15829A081DDDBB8 /* M13Checkbox+IB.swift */,
+				C1B92A27829797A776CE3A1861BFB763 /* M13CheckboxAddRemovePathGenerator.swift */,
+				EB669C6F0D25D771DB26B4EF5EF38442 /* M13CheckboxAnimationGenerator.swift */,
+				E606D7B48785D038FC9031562D69D0EA /* M13CheckboxBounceController.swift */,
+				86639039CD720CBDDA1B0D0C57D59DCE /* M13CheckboxCheckPathGenerator.swift */,
+				F4FCCF9F3B32459E3A7E174D036543C1 /* M13CheckboxController.swift */,
+				A599A414BD7952CBBF98327772DB8A22 /* M13CheckboxDisclosurePathGenerator.swift */,
+				8E4FDDCA47ACA7DCDAE8E1DE7B851253 /* M13CheckboxDotController.swift */,
+				918CBD1C1F689D080B3C3FF335B4491E /* M13CheckboxExpandController.swift */,
+				1A83282E1A402301B975C1ACC39DA08B /* M13CheckboxFadeController.swift */,
+				06CA4D1234C526AD63E881DC518F6EAD /* M13CheckboxFillController.swift */,
+				D9E8F29B67C304464A4F5C13391B42B5 /* M13CheckboxFlatController.swift */,
+				A53C8C1272B92BA63C99F74D0112E26E /* M13CheckboxGestureRecognizer.swift */,
+				9E61D6CF94EF4B21D90B0C0DAC76BB15 /* M13CheckboxPathGenerator.swift */,
+				DD455E9F6D4D22078045D256777BE82E /* M13CheckboxRadioPathGenerator.swift */,
+				55C562953246D0DEF41E698D616A93E6 /* M13CheckboxSpiralController.swift */,
+				3E8BF6242B5FDFF66A9B30BBE63DA8AD /* M13CheckboxStrokeController.swift */,
+				2FAB491F68B1DE170A867CCD9C38E11E /* Support Files */,
+			);
+			name = M13Checkbox;
+			path = M13Checkbox;
+			sourceTree = "<group>";
+		};
+		204EEF6440DAA5E8D4CE9B1EE88765FD /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				B1B15E16A0F33A0958F88DE922DCE5FD /* CoreGraphics.framework */,
+				B556076667A848081B6C4191C7384F7C /* Foundation.framework */,
+				7DBFAF4C313D8729E56CBDF62618A7CC /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		2A4EE6E253BDE9E104E3D952E54F0F82 /* EPSignature */ = {
+			isa = PBXGroup;
+			children = (
+				435BDE928CC6A04A682D5239ED308085 /* EPExtensions.swift */,
+				4354A19A0E262156098F2C8BD92AC7B3 /* EPSignatureView.swift */,
+				DA0CB4D235A9ABC43057347651432A4F /* EPSignatureViewController.swift */,
+				6E742DEA152108B601CD614E2393B20E /* Resources */,
+				7354D1471A95DEB114F323F658023B2B /* Support Files */,
+			);
+			name = EPSignature;
+			path = EPSignature;
+			sourceTree = "<group>";
+		};
+		2FAB491F68B1DE170A867CCD9C38E11E /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				2C64268D91FDB960ABA3CC5BA6CA1C3F /* M13Checkbox.modulemap */,
+				BEDF1087435B8A6284ECD7D84FF7F98C /* M13Checkbox-dummy.m */,
+				9E89C7983423E712770AA46BCE4EFA41 /* M13Checkbox-Info.plist */,
+				CE831DCED5FF77C3E9637821C274B5C4 /* M13Checkbox-prefix.pch */,
+				F53B84CD1688CD630442CE5F3C6B7035 /* M13Checkbox-umbrella.h */,
+				525F29C0EA3CEA7AD372B82C42BB9C63 /* M13Checkbox.debug.xcconfig */,
+				55B0D27EFF0C47A3F45D2970D2966862 /* M13Checkbox.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/M13Checkbox";
+			sourceTree = "<group>";
+		};
+		582FAAD4816F1A440440038C10BC91E2 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				AD298D8F49C1511C15DEFEB3F1E5DFB5 /* PKHUD.modulemap */,
+				50FA911965F5BA4D07EFA9F1770F4975 /* PKHUD-dummy.m */,
+				8C14A7199C41282D310A05EB0EF70E9C /* PKHUD-Info.plist */,
+				E7490ECC1B8119E25A9B7CE804A9E382 /* PKHUD-prefix.pch */,
+				9A3530023090A6FA6BAF9C0F1AFED50A /* PKHUD-umbrella.h */,
+				F8E6D115D1059668B31561D3D76CAE81 /* PKHUD.debug.xcconfig */,
+				93B4593A7862D2103489945A2288A84F /* PKHUD.release.xcconfig */,
+				56ABD65DE146F9227286109A80D201D3 /* ResourceBundle-PKHUDResources-PKHUD-Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/PKHUD";
+			sourceTree = "<group>";
+		};
+		6E742DEA152108B601CD614E2393B20E /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				954455AACD3F76785036D5DB6C2F3314 /* EPSignatureViewController.xib */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		6F629F27F0756494F8277BAED8664887 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				800C557886397A7CCCC26805F5346BC0 /* IGColorPicker.modulemap */,
+				8E947A315751546ABE7A0C79D5769BFA /* IGColorPicker-dummy.m */,
+				B8F40FC28E164D6E6B06CD0E2AD4A598 /* IGColorPicker-Info.plist */,
+				04FCCAA1661C31534417A28445CF45C8 /* IGColorPicker-prefix.pch */,
+				A4C3DA11AEE635596BFE6AD6CD94C941 /* IGColorPicker-umbrella.h */,
+				2044570AE5B7A2BCDE4DC22E24FF7C8A /* IGColorPicker.debug.xcconfig */,
+				289164DF0DC833425714E8C535591749 /* IGColorPicker.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/IGColorPicker";
+			sourceTree = "<group>";
+		};
+		7354D1471A95DEB114F323F658023B2B /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				63C0CFB1FB493F30DEC8A173A5445590 /* EPSignature.modulemap */,
+				65C547DBD865BFC7685EB7CA04183182 /* EPSignature-dummy.m */,
+				31B639FDC1B7426A43B5D5A751A40ED4 /* EPSignature-Info.plist */,
+				FEE1CE6324E0DF95A1AA6A862ACF161E /* EPSignature-prefix.pch */,
+				CA8C30CC0AB01FDD3FD0AEB992C365E2 /* EPSignature-umbrella.h */,
+				59E87903BB27B5E7EAA2665E796E36C7 /* EPSignature.debug.xcconfig */,
+				5C53087A16C04913FBDE782CC6A87EBE /* EPSignature.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/EPSignature";
+			sourceTree = "<group>";
+		};
+		997419DA620C600F1D792C305E4FFA7C /* PKHUD */ = {
+			isa = PBXGroup;
+			children = (
+				D86C682577C0383F974C018AD114E2D1 /* FrameView.swift */,
+				4E76B1A4632F508C605BEEB76433F90B /* HUD.swift */,
+				401929580B58D8C21A6DD3D29F0DFE6F /* PKHUD.h */,
+				0D6E832468E20184FE32D78EA328CF9E /* PKHUD.swift */,
+				159A18DD55BBA6293AB72BE34D53CADD /* PKHUDAnimating.swift */,
+				7526070432EB4398C45B66318833E455 /* PKHUDAnimation.swift */,
+				47B6D13AE4106A77012DC9B6BB7CE47B /* PKHUDAssets.swift */,
+				BDE8A0C56290990A7E0A6B4D68BA21C8 /* PKHUDErrorView.swift */,
+				8243845555C5AFD603D15CCD3181700B /* PKHUDProgressView.swift */,
+				E297F02E70031477117670794B620EF1 /* PKHUDRotatingImageView.swift */,
+				D2E9EDA1EAE7618415480F6BB62718AB /* PKHUDSquareBaseView.swift */,
+				7198BF06E27FB8BDB367345E337A9D92 /* PKHUDSuccessView.swift */,
+				FC420E68EFF86800325382012D1BFA5B /* PKHUDSystemActivityIndicatorView.swift */,
+				2AFE41D647F531F339A9823FAB6CF767 /* PKHUDTextView.swift */,
+				6FAD80CBC1A9D82908F7817735877736 /* PKHUDWideBaseView.swift */,
+				5EA92B230BB38C93C39EB34367E2F469 /* Window.swift */,
+				6F044DD56610E667C4971982B130D5DD /* WindowRootViewController.swift */,
+				C1F21C2506D44E9261ED7930224309DC /* Resources */,
+				582FAAD4816F1A440440038C10BC91E2 /* Support Files */,
+			);
+			name = PKHUD;
+			path = PKHUD;
+			sourceTree = "<group>";
+		};
+		9F41DB65381497A32E9268FA22E1F924 /* SwiftSignatureView */ = {
+			isa = PBXGroup;
+			children = (
+				EBFB01875F6A362C153F95C65BBCE3C5 /* SwiftSignatureView.swift */,
+				128F5FEEF238A6447A4A12BB14DAD840 /* Support Files */,
+			);
+			name = SwiftSignatureView;
+			path = SwiftSignatureView;
+			sourceTree = "<group>";
+		};
+		C1F21C2506D44E9261ED7930224309DC /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				F72011124DD447E19AC9DB17C22B2C6C /* Images.xcassets */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				0BB682A9E3AEC53A1F57317EAE3D32E9 /* Frameworks */,
+				0A9D478B87F51F309D97592319FC7BA4 /* Pods */,
+				DDF2CC8F503D13AEBAC7A3283AE1FAD4 /* Products */,
+				0137A8E140EF1D8B6BBFB58943516EB0 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D8D43081ADF24186F008338843A48F1E /* IGColorPicker */ = {
+			isa = PBXGroup;
+			children = (
+				DFA546D3D51CBE357D26A1BF15E32DF6 /* ColorPickerCell.swift */,
+				EF5C09E419DDCB5D31DCE92E977B5ABB /* ColorPickerView.swift */,
+				FDB9F5B5813B75391FB1C7D076A0C23B /* ColorPickerViewDelegate.swift */,
+				C59C6B38D7335B9F512A200E9CBC3611 /* ColorPickerViewDelegateFlowLayout.swift */,
+				9C8983AEE5B01E367675E4860AEAD127 /* DefaultValues.swift */,
+				A9DC3BCB53F647FDB4A775D019A0C0ED /* UIColor+Extension.swift */,
+				6F629F27F0756494F8277BAED8664887 /* Support Files */,
+			);
+			name = IGColorPicker;
+			path = IGColorPicker;
+			sourceTree = "<group>";
+		};
+		DDF2CC8F503D13AEBAC7A3283AE1FAD4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3DFAC6F70B9CECADF5873F487AF082BA /* EPSignature.framework */,
+				369464E2D560E1D8403DC62F7F9F96F1 /* IGColorPicker.framework */,
+				5CE79C5BF20743404E59BEFD080A364D /* M13Checkbox.framework */,
+				05A2656F46E8CA87E77A035911B33D10 /* PKHUD.framework */,
+				BFCB2D5C605270A32522299AED3B5AE6 /* PKHUDResources.bundle */,
+				302C3A90C062002343BA997A15CB0594 /* Pods_SigningPractice.framework */,
+				1DCCE24B7AC94316262E7281F935FD6B /* SwiftSignatureView.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F2285A6FCA5BB7F10885C7BAA45A3E1B /* Pods-SigningPractice */ = {
+			isa = PBXGroup;
+			children = (
+				1C36600B595A583CD472C278E04659D4 /* Pods-SigningPractice.modulemap */,
+				B017CE5A19DC77580E671027E000FE21 /* Pods-SigningPractice-acknowledgements.markdown */,
+				75FF5CA3ABB87BB717061B04E7CC6D8E /* Pods-SigningPractice-acknowledgements.plist */,
+				68D7ABC7314E762AA5535FC5003441AD /* Pods-SigningPractice-dummy.m */,
+				98191186BF1A36331685671AB6B85442 /* Pods-SigningPractice-frameworks.sh */,
+				4A9B7F8E4421EFF94022735DAEA6FBED /* Pods-SigningPractice-Info.plist */,
+				71694A0860426E0B591749B6D11AE19D /* Pods-SigningPractice-umbrella.h */,
+				238257BA5F8C601B25CF235B8FF941A3 /* Pods-SigningPractice.debug.xcconfig */,
+				70655DFD80C1E0024DD881EE2016DFB3 /* Pods-SigningPractice.release.xcconfig */,
+			);
+			name = "Pods-SigningPractice";
+			path = "Target Support Files/Pods-SigningPractice";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		438098BD7FF1E4AE9BBD32604EA47871 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				163A5D0CB2C56002E3577FDB0F1C7CC9 /* EPSignature-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B35CB086F4C6DDF153D97C517908BE4F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D03B6DD177594760AC1EE2CFF0833CE /* Pods-SigningPractice-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C6F58EA2796AE1BFE09A1792B6054A9A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				48B67166589641F388DBD7A152CBCA92 /* SwiftSignatureView-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D8254C544A8F81DBE6028766B85010C7 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9432D6D1CE40B94ACC42309A46DA4C4B /* PKHUD-umbrella.h in Headers */,
+				446493C8F226FA8CC9D4D706486FA605 /* PKHUD.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FBAF7871CC983ACBA0F9AD83C2D4BB9C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3DA07DFC44F8781C43CEF13FA981122F /* M13Checkbox-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF8A654131EACBFE8E6275E3029105E9 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9EE1FDEFDD39B68FC45914834243E3F6 /* IGColorPicker-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		364873017BA37260EF589D44B6B73D21 /* PKHUD */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CF1F2FE4505305B2AD57B3C33848F4E0 /* Build configuration list for PBXNativeTarget "PKHUD" */;
+			buildPhases = (
+				D8254C544A8F81DBE6028766B85010C7 /* Headers */,
+				D1491D3A27F6A01508D7198421E73BDC /* Sources */,
+				766F7A424E267388A5C0898A61031720 /* Frameworks */,
+				37FD88FFFFD02C5987264EF24DC0EA17 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0B5AEB9E7BE93EEF65D812DA21A2B86D /* PBXTargetDependency */,
+			);
+			name = PKHUD;
+			productName = PKHUD;
+			productReference = 05A2656F46E8CA87E77A035911B33D10 /* PKHUD.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		3CAF5EBFE5D1550CFF58AEC93594990A /* EPSignature */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B26241A4DE22A5B486B891280CE6A019 /* Build configuration list for PBXNativeTarget "EPSignature" */;
+			buildPhases = (
+				438098BD7FF1E4AE9BBD32604EA47871 /* Headers */,
+				4352590B79DA91958B8639A4211B4AD4 /* Sources */,
+				F68ADAAA9ED6942C7EC45998993DCE7E /* Frameworks */,
+				3AA509A951A1697912813D26EFDA3361 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EPSignature;
+			productName = EPSignature;
+			productReference = 3DFAC6F70B9CECADF5873F487AF082BA /* EPSignature.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		6D8D2751C5F0C2E845398BA4D7969D44 /* IGColorPicker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5EAB6CC25C4F26A3ABA2420835CF9EE3 /* Build configuration list for PBXNativeTarget "IGColorPicker" */;
+			buildPhases = (
+				FF8A654131EACBFE8E6275E3029105E9 /* Headers */,
+				7E94F0595D49B7150582F097A14B9B30 /* Sources */,
+				BAA9220488FA851E994F20F17F99DB4A /* Frameworks */,
+				5FC6DCB16CF696F3BBFF8903C94621D4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E94C04CB22A33CE8A31134E748FA81ED /* PBXTargetDependency */,
+			);
+			name = IGColorPicker;
+			productName = IGColorPicker;
+			productReference = 369464E2D560E1D8403DC62F7F9F96F1 /* IGColorPicker.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		7111E54EAE43E89F451A75076C3525ED /* M13Checkbox */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ED7DD20DD3621EE7C03FA69A9B257875 /* Build configuration list for PBXNativeTarget "M13Checkbox" */;
+			buildPhases = (
+				FBAF7871CC983ACBA0F9AD83C2D4BB9C /* Headers */,
+				A18D6945EF01597B20E75B01F302FAFC /* Sources */,
+				5D1D49812C2F7D8070972FE1826530FB /* Frameworks */,
+				87350EB5055F90CB5A756D6A63FB551A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = M13Checkbox;
+			productName = M13Checkbox;
+			productReference = 5CE79C5BF20743404E59BEFD080A364D /* M13Checkbox.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		77FF5E066D2B1955FFA0177ECFA4DF75 /* SwiftSignatureView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 16E24233CE874907500A12F0CF24DFE9 /* Build configuration list for PBXNativeTarget "SwiftSignatureView" */;
+			buildPhases = (
+				C6F58EA2796AE1BFE09A1792B6054A9A /* Headers */,
+				C68E63B7CBBB83C157441509E0099BA7 /* Sources */,
+				9C6AE3FD64538CE37A9AAA182964E9A6 /* Frameworks */,
+				5BF6E719E8CF089C0254146FBEAB53DF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SwiftSignatureView;
+			productName = SwiftSignatureView;
+			productReference = 1DCCE24B7AC94316262E7281F935FD6B /* SwiftSignatureView.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		A7F7332F1050B42A501616421AC869EB /* PKHUD-PKHUDResources */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2A87479FF8902694C7145DC60E11837E /* Build configuration list for PBXNativeTarget "PKHUD-PKHUDResources" */;
+			buildPhases = (
+				1BAFE9CA1767C49CCA30ABD1382949C4 /* Sources */,
+				5965CA0EC8E5353EE2EEBE4B07D4C053 /* Frameworks */,
+				61C29A22F2D8A5D7115987E9EB433102 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "PKHUD-PKHUDResources";
+			productName = "PKHUD-PKHUDResources";
+			productReference = BFCB2D5C605270A32522299AED3B5AE6 /* PKHUDResources.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		DC2CE5EFFDD8AA04B82870914F7FB876 /* Pods-SigningPractice */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 78CD274D87540751B195AA37C6815774 /* Build configuration list for PBXNativeTarget "Pods-SigningPractice" */;
+			buildPhases = (
+				B35CB086F4C6DDF153D97C517908BE4F /* Headers */,
+				E58EB181D9A0C308A02DB56E953FAF01 /* Sources */,
+				31635D3CB11BDE66A72E6B17F207258E /* Frameworks */,
+				16B4C42DC151A3DD6D3ACEF3F6D92058 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				564F1CD9D79856D99B649D0C65E5ECE1 /* PBXTargetDependency */,
+				1A095D367DBA07000EE6FE3740051D5C /* PBXTargetDependency */,
+				E829A0508D304556576B4221E24BE6DF /* PBXTargetDependency */,
+				FA4B6D79DEEFF447804687525AA8FA20 /* PBXTargetDependency */,
+				1608A8F0113BEB1B479A9916F86244C8 /* PBXTargetDependency */,
+			);
+			name = "Pods-SigningPractice";
+			productName = "Pods-SigningPractice";
+			productReference = 302C3A90C062002343BA997A15CB0594 /* Pods_SigningPractice.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 10.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = DDF2CC8F503D13AEBAC7A3283AE1FAD4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3CAF5EBFE5D1550CFF58AEC93594990A /* EPSignature */,
+				6D8D2751C5F0C2E845398BA4D7969D44 /* IGColorPicker */,
+				7111E54EAE43E89F451A75076C3525ED /* M13Checkbox */,
+				364873017BA37260EF589D44B6B73D21 /* PKHUD */,
+				A7F7332F1050B42A501616421AC869EB /* PKHUD-PKHUDResources */,
+				DC2CE5EFFDD8AA04B82870914F7FB876 /* Pods-SigningPractice */,
+				77FF5E066D2B1955FFA0177ECFA4DF75 /* SwiftSignatureView */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		16B4C42DC151A3DD6D3ACEF3F6D92058 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		37FD88FFFFD02C5987264EF24DC0EA17 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				771FF27CF9018A865BE6AA1C8FDD0646 /* PKHUDResources.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3AA509A951A1697912813D26EFDA3361 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07E25CD770A813F621CA8C3400A7D7ED /* EPSignatureViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5BF6E719E8CF089C0254146FBEAB53DF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5FC6DCB16CF696F3BBFF8903C94621D4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		61C29A22F2D8A5D7115987E9EB433102 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E2A38E421D16111E6DE45070BA0F0A7E /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		87350EB5055F90CB5A756D6A63FB551A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1BAFE9CA1767C49CCA30ABD1382949C4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4352590B79DA91958B8639A4211B4AD4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E5B1D766956D38038491649A5AFA693E /* EPExtensions.swift in Sources */,
+				D3071B6EC4C2D2C0AE2493C6ABFA00D8 /* EPSignature-dummy.m in Sources */,
+				1E3C34E93BBDB5CA9B85A737FD634813 /* EPSignatureView.swift in Sources */,
+				1B249CE416D978D8E1AF0899886734EB /* EPSignatureViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7E94F0595D49B7150582F097A14B9B30 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				264D38C04FB2A8AAC6DD94AEEDE6D33E /* ColorPickerCell.swift in Sources */,
+				224E7A8EC9F1222531E3A0C3977FCDAB /* ColorPickerView.swift in Sources */,
+				845FFB8F470D34D9D2B1EBF240E153A2 /* ColorPickerViewDelegate.swift in Sources */,
+				B318B688B65B56BC840B03962D2DE393 /* ColorPickerViewDelegateFlowLayout.swift in Sources */,
+				A7F238E4EA685E9A685F4A6AE1568549 /* DefaultValues.swift in Sources */,
+				4147AAEFC99B3FF5EE4792FEC4A009F5 /* IGColorPicker-dummy.m in Sources */,
+				551ED8009D7A001E38FD3C99D25F5CBD /* UIColor+Extension.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A18D6945EF01597B20E75B01F302FAFC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F8B8496663DA7512C8DCDA1DCA05C60E /* DefaultValues.swift in Sources */,
+				4A107B86C255F6A49C6616D546B40585 /* M13Checkbox+IB.swift in Sources */,
+				7F5C1F4F2BE2212FCEE08299124361F4 /* M13Checkbox-dummy.m in Sources */,
+				0126B11AAF31F96644C6F82064721027 /* M13Checkbox.swift in Sources */,
+				A2E15A3C59A1B26BC369820D7914C739 /* M13CheckboxAddRemovePathGenerator.swift in Sources */,
+				12EDD45814D8150755D0B6B9024CEFCD /* M13CheckboxAnimationGenerator.swift in Sources */,
+				1BB92ED1C2A38E73E82956BE00F0C4B7 /* M13CheckboxBounceController.swift in Sources */,
+				EE5DDEFF888762F44404E30889EFCF70 /* M13CheckboxCheckPathGenerator.swift in Sources */,
+				E6FFE305826BE9881BB19196880D5A74 /* M13CheckboxController.swift in Sources */,
+				F00EA7040B010ACDE2EA7011D7529A11 /* M13CheckboxDisclosurePathGenerator.swift in Sources */,
+				128FA21D7EFAB80FC1F2B851D4D6450A /* M13CheckboxDotController.swift in Sources */,
+				2265A020B0727EB38FA75523D170B51A /* M13CheckboxExpandController.swift in Sources */,
+				BC8F9F3A3C4B4E685AD494B3A3DC4BD7 /* M13CheckboxFadeController.swift in Sources */,
+				16860195B5F7EA0E583C7B52FEE745FE /* M13CheckboxFillController.swift in Sources */,
+				9F6A924646BC2E5C790B822DFA3D6DF3 /* M13CheckboxFlatController.swift in Sources */,
+				A4E3AA395F2CC53A35AFC0FA78ABE33F /* M13CheckboxGestureRecognizer.swift in Sources */,
+				6A7A384A3F24F41E61C5EC59DC89FB2B /* M13CheckboxPathGenerator.swift in Sources */,
+				D7B3528A3103B65FA92AAA30AEF7B8D1 /* M13CheckboxRadioPathGenerator.swift in Sources */,
+				88FA28B34E671180474152FCC00CDE3C /* M13CheckboxSpiralController.swift in Sources */,
+				F78870AB77C739F4971E831CD98D3696 /* M13CheckboxStrokeController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C68E63B7CBBB83C157441509E0099BA7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				96BB74F01FBAF80ECC54F6EF1CCED5AA /* SwiftSignatureView-dummy.m in Sources */,
+				F481AB71C654A793C88D1799230865D0 /* SwiftSignatureView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D1491D3A27F6A01508D7198421E73BDC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB20EB5F12F78130500E8683C2214E11 /* FrameView.swift in Sources */,
+				0D0FC5FCA5DC6851AA0674A0F436F75C /* HUD.swift in Sources */,
+				A8EA6E398B7FC737D0D92A533D7677E5 /* PKHUD-dummy.m in Sources */,
+				180A266E2AF087B3E947058335E89CE0 /* PKHUD.swift in Sources */,
+				606FB101465BA0EC4F2ED1EDE8E152DD /* PKHUDAnimating.swift in Sources */,
+				675EC1A032DFDD820264B3AE47B297C2 /* PKHUDAnimation.swift in Sources */,
+				1F824E58DBB325F219AFB0C9451BE1C8 /* PKHUDAssets.swift in Sources */,
+				EF50980DA05BC44D9725C5702FDDD669 /* PKHUDErrorView.swift in Sources */,
+				54E7808DA4C495BFCA04EC8FA99EF06C /* PKHUDProgressView.swift in Sources */,
+				31F445BC870DC65B5DB15B8F51AE9E77 /* PKHUDRotatingImageView.swift in Sources */,
+				9C4229D5D1B5FC7606ECC49F776E64CD /* PKHUDSquareBaseView.swift in Sources */,
+				39A93C2CC130C7BBC883E0735F630671 /* PKHUDSuccessView.swift in Sources */,
+				E84C1832305BF7AA61C2E6F99C7369C0 /* PKHUDSystemActivityIndicatorView.swift in Sources */,
+				F2CC01B79708C6CC4DEA8FD3B308C4F7 /* PKHUDTextView.swift in Sources */,
+				148F4A8D0E9317AF7E814A558AC16AA7 /* PKHUDWideBaseView.swift in Sources */,
+				0B08DFF991597B12F4B73F5E699BC130 /* Window.swift in Sources */,
+				14035A7A6B8A825357C702BBE6C8848C /* WindowRootViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E58EB181D9A0C308A02DB56E953FAF01 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EBDE426BC242F1E2A7810296582D8B30 /* Pods-SigningPractice-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0B5AEB9E7BE93EEF65D812DA21A2B86D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "PKHUD-PKHUDResources";
+			target = A7F7332F1050B42A501616421AC869EB /* PKHUD-PKHUDResources */;
+			targetProxy = C7E4FF5E720A8106ADD14262653F5F38 /* PBXContainerItemProxy */;
+		};
+		1608A8F0113BEB1B479A9916F86244C8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SwiftSignatureView;
+			target = 77FF5E066D2B1955FFA0177ECFA4DF75 /* SwiftSignatureView */;
+			targetProxy = FC4D7B55E7381546F562233972269587 /* PBXContainerItemProxy */;
+		};
+		1A095D367DBA07000EE6FE3740051D5C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = IGColorPicker;
+			target = 6D8D2751C5F0C2E845398BA4D7969D44 /* IGColorPicker */;
+			targetProxy = B23EBCA3BC0C8F8125906539D051FFA7 /* PBXContainerItemProxy */;
+		};
+		564F1CD9D79856D99B649D0C65E5ECE1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = EPSignature;
+			target = 3CAF5EBFE5D1550CFF58AEC93594990A /* EPSignature */;
+			targetProxy = 20E0CE6477DF4EA14ABB49DE11496DDA /* PBXContainerItemProxy */;
+		};
+		E829A0508D304556576B4221E24BE6DF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = M13Checkbox;
+			target = 7111E54EAE43E89F451A75076C3525ED /* M13Checkbox */;
+			targetProxy = 4F0B20E60F42A10E9CF15A2A3D4436E2 /* PBXContainerItemProxy */;
+		};
+		E94C04CB22A33CE8A31134E748FA81ED /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = M13Checkbox;
+			target = 7111E54EAE43E89F451A75076C3525ED /* M13Checkbox */;
+			targetProxy = DDB3003722DA5442EBEA6C3909A0449E /* PBXContainerItemProxy */;
+		};
+		FA4B6D79DEEFF447804687525AA8FA20 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = PKHUD;
+			target = 364873017BA37260EF589D44B6B73D21 /* PKHUD */;
+			targetProxy = 3D7654D6035EC1C05BD6DCD3024E0045 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		20AE5CF0CF3C9571F79F530F08935AAB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 289164DF0DC833425714E8C535591749 /* IGColorPicker.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/IGColorPicker/IGColorPicker-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/IGColorPicker/IGColorPicker-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/IGColorPicker/IGColorPicker.modulemap";
+				PRODUCT_MODULE_NAME = IGColorPicker;
+				PRODUCT_NAME = IGColorPicker;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		20EA59A4E7274C91B82EFA44EBFB5CE3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 93B4593A7862D2103489945A2288A84F /* PKHUD.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/PKHUD/PKHUD-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/PKHUD/PKHUD-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/PKHUD/PKHUD.modulemap";
+				PRODUCT_MODULE_NAME = PKHUD;
+				PRODUCT_NAME = PKHUD;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		2B80FCE19C6ABB2CDE4980CCA945A74E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F8E6D115D1059668B31561D3D76CAE81 /* PKHUD.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/PKHUD";
+				IBSC_MODULE = PKHUD;
+				INFOPLIST_FILE = "Target Support Files/PKHUD/ResourceBundle-PKHUDResources-PKHUD-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = PKHUDResources;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		36F37C4F100FB298560851AA964B254B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5C53087A16C04913FBDE782CC6A87EBE /* EPSignature.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/EPSignature/EPSignature-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/EPSignature/EPSignature-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/EPSignature/EPSignature.modulemap";
+				PRODUCT_MODULE_NAME = EPSignature;
+				PRODUCT_NAME = EPSignature;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		44703F2EF60D433627EDF62D47701DFF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F8E6D115D1059668B31561D3D76CAE81 /* PKHUD.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/PKHUD/PKHUD-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/PKHUD/PKHUD-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/PKHUD/PKHUD.modulemap";
+				PRODUCT_MODULE_NAME = PKHUD;
+				PRODUCT_NAME = PKHUD;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		519B25C695DE7F0E69953AEE5B852E00 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 59E87903BB27B5E7EAA2665E796E36C7 /* EPSignature.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/EPSignature/EPSignature-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/EPSignature/EPSignature-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/EPSignature/EPSignature.modulemap";
+				PRODUCT_MODULE_NAME = EPSignature;
+				PRODUCT_NAME = EPSignature;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		62BC9C54FB261AD8F3FBBFB29333CABF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ED88FEE5BD1D828C4645FD16D96219F6 /* SwiftSignatureView.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftSignatureView/SwiftSignatureView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwiftSignatureView/SwiftSignatureView-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/SwiftSignatureView/SwiftSignatureView.modulemap";
+				PRODUCT_MODULE_NAME = SwiftSignatureView;
+				PRODUCT_NAME = SwiftSignatureView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0.1;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		66D163A27B16F841EA39A9597A583015 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 70655DFD80C1E0024DD881EE2016DFB3 /* Pods-SigningPractice.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SigningPractice/Pods-SigningPractice-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SigningPractice/Pods-SigningPractice.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		6C61D818ACD3C2C116FED6A9C67E91B4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		7DC5F11AFBEAE473E8D3C24A2D11338D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		9161732A7611F4D5A6B747960974A0CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 525F29C0EA3CEA7AD372B82C42BB9C63 /* M13Checkbox.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/M13Checkbox/M13Checkbox-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/M13Checkbox/M13Checkbox-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/M13Checkbox/M13Checkbox.modulemap";
+				PRODUCT_MODULE_NAME = M13Checkbox;
+				PRODUCT_NAME = M13Checkbox;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		948D4FE9DCCDD195E857F7519A7A6F68 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 253172D5A80A611AE37F4E5486217AA4 /* SwiftSignatureView.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftSignatureView/SwiftSignatureView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwiftSignatureView/SwiftSignatureView-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/SwiftSignatureView/SwiftSignatureView.modulemap";
+				PRODUCT_MODULE_NAME = SwiftSignatureView;
+				PRODUCT_NAME = SwiftSignatureView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0.1;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		A942C49712B8C4CC865DE0D8468B1610 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 238257BA5F8C601B25CF235B8FF941A3 /* Pods-SigningPractice.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SigningPractice/Pods-SigningPractice-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SigningPractice/Pods-SigningPractice.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		A99F6A00D346F8998BD807083AC8A48D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 55B0D27EFF0C47A3F45D2970D2966862 /* M13Checkbox.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/M13Checkbox/M13Checkbox-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/M13Checkbox/M13Checkbox-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/M13Checkbox/M13Checkbox.modulemap";
+				PRODUCT_MODULE_NAME = M13Checkbox;
+				PRODUCT_NAME = M13Checkbox;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		BD1DD2C581304A827924616B26E2A60F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2044570AE5B7A2BCDE4DC22E24FF7C8A /* IGColorPicker.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/IGColorPicker/IGColorPicker-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/IGColorPicker/IGColorPicker-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/IGColorPicker/IGColorPicker.modulemap";
+				PRODUCT_MODULE_NAME = IGColorPicker;
+				PRODUCT_NAME = IGColorPicker;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		DC31B3046484BBDD1B10CC1D3F768610 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 93B4593A7862D2103489945A2288A84F /* PKHUD.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/PKHUD";
+				IBSC_MODULE = PKHUD;
+				INFOPLIST_FILE = "Target Support Files/PKHUD/ResourceBundle-PKHUDResources-PKHUD-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = PKHUDResources;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		16E24233CE874907500A12F0CF24DFE9 /* Build configuration list for PBXNativeTarget "SwiftSignatureView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				948D4FE9DCCDD195E857F7519A7A6F68 /* Debug */,
+				62BC9C54FB261AD8F3FBBFB29333CABF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2A87479FF8902694C7145DC60E11837E /* Build configuration list for PBXNativeTarget "PKHUD-PKHUDResources" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2B80FCE19C6ABB2CDE4980CCA945A74E /* Debug */,
+				DC31B3046484BBDD1B10CC1D3F768610 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6C61D818ACD3C2C116FED6A9C67E91B4 /* Debug */,
+				7DC5F11AFBEAE473E8D3C24A2D11338D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5EAB6CC25C4F26A3ABA2420835CF9EE3 /* Build configuration list for PBXNativeTarget "IGColorPicker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD1DD2C581304A827924616B26E2A60F /* Debug */,
+				20AE5CF0CF3C9571F79F530F08935AAB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		78CD274D87540751B195AA37C6815774 /* Build configuration list for PBXNativeTarget "Pods-SigningPractice" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A942C49712B8C4CC865DE0D8468B1610 /* Debug */,
+				66D163A27B16F841EA39A9597A583015 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B26241A4DE22A5B486B891280CE6A019 /* Build configuration list for PBXNativeTarget "EPSignature" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				519B25C695DE7F0E69953AEE5B852E00 /* Debug */,
+				36F37C4F100FB298560851AA964B254B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CF1F2FE4505305B2AD57B3C33848F4E0 /* Build configuration list for PBXNativeTarget "PKHUD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				44703F2EF60D433627EDF62D47701DFF /* Debug */,
+				20EA59A4E7274C91B82EFA44EBFB5CE3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ED7DD20DD3621EE7C03FA69A9B257875 /* Build configuration list for PBXNativeTarget "M13Checkbox" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9161732A7611F4D5A6B747960974A0CA /* Debug */,
+				A99F6A00D346F8998BD807083AC8A48D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

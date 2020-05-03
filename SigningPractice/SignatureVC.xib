@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="16096" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="SignVC" customModule="SigningPractice" customModuleProvider="target">
+            <connections>
+                <outlet property="PositionSignature" destination="Dxe-6B-rHS" id="iud-YM-DvF"/>
+                <outlet property="btnCancelSignatureView" destination="5kf-Pp-a0i" id="xEG-nQ-NQm"/>
+                <outlet property="btnDoneSignatureView" destination="7C4-hj-s5p" id="mvq-73-yYP"/>
+                <outlet property="colorVC" destination="rXQ-DX-poS" id="XE7-tm-C4n"/>
+                <outlet property="pdfContainerView" destination="i5M-Pr-FkT" id="1xg-fV-wDD"/>
+                <outlet property="pdfSignatureTapGesRecog" destination="v5E-VH-eOj" id="d9I-Ig-uNR"/>
+                <outlet property="pdfSignatureView" destination="Afy-Hk-Ef7" id="mWc-0H-hNa"/>
+                <outlet property="signatureViewNavBar" destination="YIL-wc-Swi" id="myr-QK-b10"/>
+                <outlet property="toolbarColorVc" destination="0wz-ME-gfo" id="PWG-sH-U7l"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="bLs-qb-o8P"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT" customClass="PDFView">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="rXQ-DX-poS" customClass="ColorPickerView" customModule="IGColorPicker">
+                    <rect key="frame" x="67" y="94" width="240" height="478"/>
+                    <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Afy-Hk-Ef7" customClass="EPSignatureView" customModule="EPSignature">
+                    <rect key="frame" x="67" y="94" width="240" height="478"/>
+                    <subviews>
+                        <navigationBar contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="YIL-wc-Swi">
+                            <rect key="frame" x="0.0" y="0.0" width="240" height="44"/>
+                            <items>
+                                <navigationItem title="Sign" id="Ncz-ov-UNW">
+                                    <barButtonItem key="leftBarButtonItem" systemItem="cancel" id="5kf-Pp-a0i">
+                                        <connections>
+                                            <action selector="btnCancelSignaturePage:" destination="-1" id="SUL-xP-tcM"/>
+                                        </connections>
+                                    </barButtonItem>
+                                    <barButtonItem key="rightBarButtonItem" enabled="NO" style="done" systemItem="done" id="7C4-hj-s5p">
+                                        <connections>
+                                            <action selector="btnHandleDoneSignaturePAge:" destination="-1" id="qqw-Ey-JpR"/>
+                                        </connections>
+                                    </barButtonItem>
+                                </navigationItem>
+                            </items>
+                        </navigationBar>
+                    </subviews>
+                    <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                    <gestureRecognizers/>
+                    <constraints>
+                        <constraint firstItem="YIL-wc-Swi" firstAttribute="top" secondItem="Afy-Hk-Ef7" secondAttribute="top" id="POd-ee-7Sf"/>
+                        <constraint firstAttribute="trailing" secondItem="YIL-wc-Swi" secondAttribute="trailing" id="hIP-u3-b3k"/>
+                        <constraint firstItem="YIL-wc-Swi" firstAttribute="leading" secondItem="Afy-Hk-Ef7" secondAttribute="leading" id="jP1-Ei-dZK"/>
+                    </constraints>
+                    <connections>
+                        <outletCollection property="gestureRecognizers" destination="v5E-VH-eOj" appends="YES" id="Kye-FA-neQ"/>
+                    </connections>
+                </view>
+                <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="0wz-ME-gfo">
+                    <rect key="frame" x="0.0" y="623" width="375" height="44"/>
+                    <items>
+                        <barButtonItem title="Close" id="Yux-jk-1yw">
+                            <connections>
+                                <action selector="btnCloseToolbar:" destination="-1" id="6pw-Gr-K0b"/>
+                            </connections>
+                        </barButtonItem>
+                        <barButtonItem style="done" systemItem="done" id="gRF-k2-Ab8">
+                            <connections>
+                                <action selector="btnDoneToolbar:" destination="-1" id="jMQ-MT-Ka1"/>
+                            </connections>
+                        </barButtonItem>
+                    </items>
+                </toolbar>
+            </subviews>
+            <color key="backgroundColor" systemColor="systemTealColor" red="0.35294117650000001" green="0.7843137255" blue="0.98039215690000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <gestureRecognizers/>
+            <constraints>
+                <constraint firstItem="Afy-Hk-Ef7" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" constant="94" id="0BG-YO-0Hr"/>
+                <constraint firstItem="0wz-ME-gfo" firstAttribute="bottom" secondItem="fnl-2z-Ty3" secondAttribute="bottom" id="Fk8-fX-2nL"/>
+                <constraint firstItem="rXQ-DX-poS" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" constant="94" id="KYj-kO-Fid"/>
+                <constraint firstItem="Afy-Hk-Ef7" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="67" id="MxC-pC-TU0"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="rXQ-DX-poS" secondAttribute="trailing" constant="68" id="ZAL-S4-Yh1"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="Afy-Hk-Ef7" secondAttribute="trailing" constant="68" id="eZa-Ds-yeE"/>
+                <constraint firstItem="0wz-ME-gfo" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="fLb-9R-QSq"/>
+                <constraint firstItem="0wz-ME-gfo" firstAttribute="top" secondItem="Afy-Hk-Ef7" secondAttribute="bottom" constant="51" id="gtO-mq-kNQ"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="bottom" secondItem="rXQ-DX-poS" secondAttribute="bottom" constant="95" id="hUp-iR-UlE"/>
+                <constraint firstItem="rXQ-DX-poS" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="67" id="stq-8Q-FI7"/>
+                <constraint firstItem="0wz-ME-gfo" firstAttribute="trailing" secondItem="fnl-2z-Ty3" secondAttribute="trailing" id="uDR-Ic-Fy1"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+            <connections>
+                <outletCollection property="gestureRecognizers" destination="Dxe-6B-rHS" appends="YES" id="4c7-8c-lgF"/>
+            </connections>
+            <point key="canvasLocation" x="138.40000000000001" y="130.88455772113943"/>
+        </view>
+        <tapGestureRecognizer id="Dxe-6B-rHS">
+            <connections>
+                <action selector="handleTapSignaturePosition:" destination="-1" id="JYY-Hk-h2Y"/>
+            </connections>
+        </tapGestureRecognizer>
+        <tapGestureRecognizer id="v5E-VH-eOj">
+            <connections>
+                <action selector="handleSIgnatureTapGesRecog:" destination="-1" id="FZC-3o-z9Z"/>
+            </connections>
+        </tapGestureRecognizer>
+    </objects>
+</document>
